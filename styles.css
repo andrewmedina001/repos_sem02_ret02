@@ -1,3 +1,38 @@
-.container{
+
+#body{
+    display: flex;
+    justify-content: center;
     padding: 50px;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 450px;
+    padding: 25px;
+}
+.caja{
+    padding-bottom: 10px;
+    padding: 25px;
+}
+.titlesl{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.inputProp{
+    width: 200px;
+    height: 15px;
+}
+.box{
+    width: 200px;
+    height: 60px;
+}
+.input_radios{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.select_prop{
+    height: 25px;
+    width: 205px;
 }

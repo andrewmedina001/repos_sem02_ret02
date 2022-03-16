@@ -1,17 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>RETO 2</title>
-</head>
-<body>
-    <div class="container">
-        <header >Sign Up</header>
-        
-    </div>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>RETO 2</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <form>
+                <h2>Sign Up</h2>
+                <div>
+                    <label class="titlesl" for="firstName">First Name</label><br>
+                    <input type="text" minlength="1" maxlength="50" class="inputProp">
+                </div>
+                <br>
+                <div>
+                    <label class="titlesl" for="Age">Age</label><br>
+                    <input type="number" min="1" max="121" class="inputProp">
+                </div>
+                <br>
+                <div>
+                    <label class="titlesl" for="Income">Income</label><br>
+                    <input type="text" minlength="1" maxlength="50" class="inputProp">
+                </div>
+                <br>
+                <div>
+                    <label class="titlesl" for="Income">More Info</label><br>
+                    <textarea name="more__info" cols="25" rows="3" minlength="0" maxlength="150"></textarea>
+                </div>
+                <div>
+                    <label class="titlesl" for="Gender">Gender</label><br>
+                    <input type="radio" name="genero" value="M" class="input_radios">Male
+                    <input type="radio" name="genero" value="F" class="input_radios">Female
+                    <input type="radio" name="genero" value="T" class="input_radios">Trans
+                </div>
+                <br>
+                <div>
+                    <label class="titlesl" for="Plan">Plan</label>
+                    <br>
+                    <select class="select_prop">
+                        <option disabled selected>Select Plan</option>
+                        <option>Plan 01</option>
+                        <option>Plan 02</option>
+                        <option>Plan 03</option>
+                        <option>Plan 04</option>
+                        <option>Plan 05</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox">
+                    <label>Subscribe to Newlester</label>
+                </div>
+                <div>
+                    <input type="submit" value="Update" class="submit_prop">
+                </div>
+            </form>
+        </section>
+    </body>
 </html>
