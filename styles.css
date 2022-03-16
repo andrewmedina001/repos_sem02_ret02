@@ -10,7 +10,7 @@ h2{
 .contenedor{
     background-color: antiquewhite;
     width: 200px;
-    height: 450px;
+    height: 490px;
     padding: 25px;
 }
 .caja{
@@ -35,4 +35,8 @@ h2{
 .select_prop{
     height: 25px;
     width: 205px;
+}
+#txt_sub_prop{
+    color: white;
+    background-color: deepskyblue;
 }
